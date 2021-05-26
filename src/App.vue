@@ -1,11 +1,11 @@
 <template>
   <div id="app">
-    <div id="app">
     <Header/>
     <Feature/>
     <Work/>
     <Team/>
-  </div>
+    <Contact/>
+    <Footer/>
   </div>
 </template>
 
@@ -14,6 +14,9 @@ import Header from './components/Header'
 import Feature from './components/Feature'
 import Work from './components/Work'
 import Team from './components/Team'
+import Contact from './components/Contact'
+import Footer from './components/Footer'
+
 
 export default {
   name: 'App',
@@ -21,7 +24,9 @@ export default {
     Header,
     Feature,
     Work,
-    Team
+    Team,
+    Contact,
+    Footer
   }
 }
 </script>

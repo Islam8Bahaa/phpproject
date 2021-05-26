@@ -215,7 +215,6 @@ input {
     height: 130px;
     border-radius: 50%;
     line-height: 130px;
-   
 }
 
 .features .box .icon:hover {
@@ -494,7 +493,7 @@ input {
     font-size: 14px;
 }
 
-.our-team .team .social-media i {
+.our-team .team .social-media .icon {
     background: #777;
     margin: 0 5px;
     color: #fff;
@@ -508,23 +507,23 @@ input {
     transition: 1s;
 }
 
-.our-team .team .person:hover .social-media i:nth-child(1) {
+.our-team .team .person:hover .social-media .icon:nth-child(1) {
     background: #3b5998;
 }
 
-.our-team .team .person:hover .social-media i:nth-child(2) {
+.our-team .team .person:hover .social-media .icon:nth-child(2) {
     background: #55acee;
 }
 
-.our-team .team .person:hover .social-media i:nth-child(3) {
+.our-team .team .person:hover .social-media .icon:nth-child(3) {
     background: #ff0000;
 }
 
-.our-team .team .person:hover .social-media i:nth-child(4) {
+.our-team .team .person:hover .social-media .icon:nth-child(4) {
     background: #dd4b39;
 }
 
-.our-team .team .person:hover .social-media i:hover {
+.our-team .team .person:hover .social-media .icon:hover {
     -webkit-transform: rotateY(360deg);
     transform: rotateY(360deg);
     background: #000;
@@ -640,7 +639,7 @@ input {
     float: right;
 }
 
-.contact form .info .social-media i {
+.contact form .info .social-media .icon {
     background: #777;
     margin: 0 5px;
     color: #fff;
@@ -654,23 +653,23 @@ input {
     transition: 1s;
 }
 
-.contact form .info .social-media i:nth-child(1) {
+.contact form .info .social-media .icon:nth-child(1) {
     background: #3b5998;
 }
 
-.contact form .info .social-media i:nth-child(2) {
+.contact form .info .social-media .icon:nth-child(2) {
     background: #55acee;
 }
 
-.contact form .info .social-media i:nth-child(3) {
+.contact form .info .social-media .icon:nth-child(3) {
     background: #ff0000;
 }
 
-.contact form .info .social-media i:nth-child(4) {
+.contact form .info .social-media .icon:nth-child(4) {
     background: #dd4b39;
 }
 
-.contact form .info .social-media i:hover {
+.contact form .info .social-media .icon:hover {
     -webkit-transform: rotateY(360deg);
     transform: rotateY(360deg);
     background: #000;

@@ -6,7 +6,8 @@
                     <span class="col-12 col-md-4 logo">Tanatos<span class="main-color">Studio</span></span>
                     <span class="col-12 col-md-4 links">
                         Menu
-                        <font-awesome-icon icon="fa fa-bars fa-lg"></font-awesome-icon>
+                        <font-awesome-icon :icon="['fas', 'bars']" class="icon"/>
+                        <!-- fas fa-bars -->
                     </span>
                 </div>
                 <div id="menu" class="hide menu">

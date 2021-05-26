@@ -4,7 +4,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-sm-6 col-md-3 box">
-                    <font-awesome-icon :icon="['fas', 'address-card']" :class="['icon']"/>
+                    <font-awesome-icon :icon="['fas', 'address-card',]" :class="['icon']"/>
                     <h3 class="upper">Print Design</h3>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam vitae illum odit pariatur</p>
                 </div>
